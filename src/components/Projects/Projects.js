@@ -14,7 +14,7 @@ const Projects = () => (
           <Img src={ image } />
           <TitleContent>
             <HeaderThree title>{ title }</HeaderThree>
-            <Hr />
+            {/* <Hr /> */ }
           </TitleContent>
           <CardInfo>{ description }</CardInfo>
           <div>
