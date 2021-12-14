@@ -1,19 +1,28 @@
-import React from 'react';
+import React from 'react'
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents'
+import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles'
 
 const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
-];
+  { number: 10, text: 'Projects Built in 2021.' },
+  { number: 300, text: 'Github commits in 2021', },
+  { number: 1, text: "Graduated Flatiron School.", },
+  { number: 4, text: 'Pair programing projects', }
+]
 
 const Acomplishments = () => (
-  <div>
-    Acomplishments
-  </div>
-);
+  <Section>
+    <SectionTitle>Accomplishments</SectionTitle>
+    <Boxes>
+      { data.map( ( card, index ) => (
+        <Box key={ index }>
+          <BoxNum>{ card.number }+</BoxNum>
+          <BoxText>{ card.text }</BoxText>
+        </Box>
+      ) ) }
+    </Boxes>
+    <SectionDivider />
+  </Section>
+)
 
-export default Acomplishments;
+export default Acomplishments
