@@ -36,14 +36,14 @@ export const TitleContent = styled.div`
   z-index: 20;
   width: 100%;
   margin-top: 5px;
-  text-decoration: 1.5px solid underline;
+  text-decoration: 1.5px solid underline red;
 
 `
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color: green;
   padding: .5rem 0;
   font-size: ${( props ) => props.title ? '3rem' : '2rem'};
 `
@@ -56,21 +56,11 @@ export const Hr = styled.hr`
   background: #d0bb57;
 `
 
-export const Intro = styled.div`
-  width: 170px;
-  margin: 0 auto;
-  color: #dce3e7;
-  font-family: 'Droid Serif', serif;
-  font-size: 13px;
-  font-style: italic;
-  line-height: 18px;
-`
-
 export const CardInfo = styled.p`
   width: 100%;
   height: auto;
   padding: 0 50px;
-  color: #e4e6e7;
+  color: red;
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
@@ -89,14 +79,14 @@ export const UtilityList = styled.ul`
 `
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color:blue;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: white;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: green;
 
 }
 `
@@ -107,6 +97,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+color: red;
 font-size: 1.5rem;
 `
