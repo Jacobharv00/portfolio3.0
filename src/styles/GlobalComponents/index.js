@@ -35,6 +35,7 @@ export const SectionTitle = styled.h2`
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
   padding: ${( props ) => props.main ? '58px 0 16px' : '0'};
+  
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: ${( props ) => props.main ? '56px' : '48px'};
@@ -60,7 +61,7 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: #fdf5e6; 
+  color: #FDF5E6; 
 
   @media ${( props ) => props.theme.breakpoints.md} {
     max-width: 670px;

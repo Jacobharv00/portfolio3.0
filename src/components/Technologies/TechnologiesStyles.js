@@ -53,6 +53,8 @@ export const List = styled.ul`
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
+  box-shadow: inset 2px 2px 2px rgba(60, 78, 88, 0.5);
+  padding: 15px;
 
   @media ${props => props.theme.breakpoints.sm}{
     display: flex;
@@ -65,7 +67,7 @@ export const ListTitle = styled.h4`
   font-size: 28px;
   line-height: 32px;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: #FDF5E6;
   margin-bottom: 8px;
 
 @media ${props => props.theme.breakpoints.md}{
@@ -84,7 +86,7 @@ export const ListTitle = styled.h4`
 export const ListParagraph = styled.p`
   font-size: 18px;
   line-height: 30px;
-  color: rgba(255, 255, 255, 0.75);
+  color: #FDF5E6;
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;

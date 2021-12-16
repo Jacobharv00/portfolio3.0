@@ -38,9 +38,10 @@ export const projects = [
 ]
 
 export const TimeLineData = [
-  { year: 2020, text: 'Started learning how to program and started taking a Udemy JavaScript Course everyday after work.', },
-  { year: 2021, text: 'Enrolled and started Full Stack Engineering Program at Flatiron School.', },
-  { year: 2021, text: 'Graduated Flatiron School with 5 projects, 2 of which are Full Stack applications.', },
-  { year: 2021, text: '', },
-  { year: 2021, text: '', },
+  { year: 2020, text: 'Started learning how to program by taking a Udemy JavaScript Course everyday after work.', },
+  { year: 2021, text: 'Built my first todo application and hangman game. Deployed both live for anyone to use.', },
+  { year: 2021, text: 'Applied and was accepted into Flatiron School for Full Stack Software Engineering.', },
+  { year: 2021, text: 'Flatiron School: studied a lot, wrote code a lot, built projects in teams and solo, learned a ton, meet a lot of great people. ', },
+  { year: 2021, text: 'Graduated Flatiron School with 5 completed projects, two of which are Full Stack applications and an even larger love for coding and solving problems.', },
+  { year: 2021, text: 'After graduation I now am continuing to learn everyday by building new projects, studying up on JavaScript and Rails, practicing algorithms, learning about automated testing, and listing to podcasts.' },
 ]

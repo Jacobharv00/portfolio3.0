@@ -14,7 +14,7 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <DiJsBadge size='4rem' style={ { color: 'blue' } } />
+        <DiJsBadge size='4rem' style={ { color: '#126069' } } />
         <br />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
@@ -24,7 +24,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiRubyRough size='4rem' style={ { color: 'blue' } } />
+        <DiRubyRough size='4rem' style={ { color: '#126069' } } />
         <br />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
@@ -34,12 +34,12 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <FaTools size='3rem' style={ { color: 'blue' } } />
+        <FaTools size='3rem' style={ { color: '#126069' } } />
         <br />
         <ListContainer>
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
-            NPM, PaaS, Styled-Components, Material UI, Commerce.js, Stripe.js
+            Git/Github, Styled-Components, Material UI, Heroku, Netlify, NPM, Commerce.js, Stripe.js, Figma, dbdiagram, email.js, Selenium WebDriver
           </ListParagraph>
         </ListContainer>
       </ListItem>
