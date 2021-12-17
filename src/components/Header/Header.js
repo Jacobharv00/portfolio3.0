@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { AiFillMediumCircle, AiFillLinkedin } from 'react-icons/ai'
+import { AiFillMediumCircle, AiFillLinkedin, AiFillFile } from 'react-icons/ai'
 import { FaGithub } from 'react-icons/fa'
 
 
@@ -10,7 +10,7 @@ const Header = () => (
   <Container>
     <Div1>
       <Link href='/'>
-        <a style={ { display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px' } }>
+        <a style={ { display: 'flex', alignItems: 'center', marginBottom: '20px' } }>
           <Span>JH</Span>
         </a>
       </Link>
@@ -41,6 +41,9 @@ const Header = () => (
       </SocialIcons>
       <SocialIcons href='https://jacobharv00.medium.com' target='_blank'>
         <AiFillMediumCircle size='3rem' />
+      </SocialIcons>
+      <SocialIcons href='https://postimg.cc/zHWGk0NH' target='_blank'>
+        <AiFillFile size='3rem' />
       </SocialIcons>
     </Div3>
   </Container>

@@ -4,7 +4,7 @@ export const Boxes = styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  gap: 20px;
   margin: 24px 0 40px;
 
   @media ${props => props.theme.breakpoints.md}{
@@ -23,7 +23,7 @@ export const Boxes = styled.div`
 `
 
 export const Box = styled.div`
-  background: #212D45;
+  box-shadow: inset 0px 3px 15px 10px rgba(60, 78, 88, 0.5);
   border-radius: 12px;
   height: 144px;
   padding: 24px;
@@ -47,12 +47,11 @@ export const Box = styled.div`
   }
 `
 export const BoxNum = styled.h5`
-  font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.01em;
-  color: #FFFFFF;
+  color: #EAC67A;
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
@@ -66,12 +65,10 @@ export const BoxNum = styled.h5`
 `
 
 export const BoxText = styled.p`
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.75);
+  color: #FDF5E6;
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;
@@ -81,54 +78,5 @@ export const BoxText = styled.p`
   @media ${props => props.theme.breakpoints.sm} {
     font-size: 10px;
     line-height: 14px;
-  }
-`
-
-export const Join = styled.div`
-  display: flex;
-  max-width: 1040px;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 80px;
-
-  @media ${props => props.theme.breakpoints.md}{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 64px;
-  }
-
-  @media ${props => props.theme.breakpoints.sm}{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 32px;
-  }
-`
-
-export const JoinText = styled.h5`
-  display: flex;
-  font-size: 24px;
-  line-height: 40px;
-  letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.5);
-
-@media ${props => props.theme.breakpoints.md}{
-  line-height: 32px;
-  font-size: 20px;
-};
-
-@media ${props => props.theme.breakpoints.sm}{
-  font-size: 16px;
-  line-height: 24px;
-  margin: 0 0 16px;
-}
-`
-
-export const IconContainer = styled.div`
-  display: flex;
-
-  @media ${props => props.theme.breakpoints.sm}{
-    width: 160px;
-    justify-content: space-between;
   }
 `

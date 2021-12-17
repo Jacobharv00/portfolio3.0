@@ -7,7 +7,6 @@ export const FooterWrapper = styled.section`
   margin: 1rem auto;
   box-sizing: content-box;
 
-
   @media ${props => props.theme.breakpoints.sm} {
     padding: 0 16px 48px;
     width: calc(100vw - 32px);
@@ -17,14 +16,14 @@ export const FooterWrapper = styled.section`
 export const LinkItem = styled.a`
 	font-size: 18px;
 	line-height: 30px;
-	color: rgba(255, 255, 255, 0.75);
+	color: #FDF5E6;
 	margin-bottom: 16px;
 	transition: .3s ease;
 	position: relative;
 	left: 0;
 
 	&:hover {
-		color: #fff;
+		color: #EAC67A;
 		left: 6px;
 	}
 
@@ -80,9 +79,8 @@ export const CompanyContainer = styled.div`
 	}
 `
 
-
 export const Slogan = styled.p`
-	color: rgba(255, 255, 255, 0.5);
+	color: #FDF5E6;
 	min-width: 280px;
 	letter-spacing: 0.02em;
 	font-size: 20px;
@@ -111,7 +109,6 @@ export const SocialContainer = styled.div`
 		flex-wrap: wrap;
 	}
 `
-
 
 export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -145,10 +142,12 @@ export const LinkColumn = styled.div`
 export const LinkTitle = styled.h4`
 	font-style: normal;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 2.5rem;
 	line-height: 24px;
 	text-transform: uppercase;
-	color: rgba(255, 255, 255, 0.4);
+	background: linear-gradient(6deg, #984B43 18.77%, rgba(255, 255, 255, 0.7) 55%);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 	margin-bottom: 16px;
 
 	@media ${props => props.theme.breakpoints.sm} {

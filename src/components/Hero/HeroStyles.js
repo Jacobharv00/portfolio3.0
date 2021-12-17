@@ -20,35 +20,40 @@ export const LeftSection = styled.div`
 
 export const Img = styled.img`
   /* max-width:100%; */
-  height:auto; 
+  height: auto; 
   object-fit: cover;
   overflow: hidden;
   border-radius: 50px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  margin-top: 7vh;
 
   @media ${( props ) => props.theme.breakpoints.sm} {
-    width: 80%;
+    width: 90%;
     align-self: center;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 55vw;
   }
 
   @media ${( props ) => props.theme.breakpoints.md} {
+    margin-top: 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-left: 20vw;
   }
   
   @media ${( props ) => props.theme.breakpoints.lg} {
     height: auto;
-    width: 50vw;
+    width: 40vw;
     display: flex;
     flex-direction: column;
   }
 
     @media ${( props ) => props.theme.breakpoints.xl} {
-      width: 40vw;
-      margin-right: 60vw;
+      height: auto;
+      width: 50vw;
       display: flex;
       flex-direction: column;
   }

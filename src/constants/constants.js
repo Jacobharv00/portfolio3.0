@@ -6,15 +6,17 @@ export const projects = [
     tags: [ 'React', 'Rails', 'PostgreSQL', 'The-Movie-DB-API', ],
     source: 'https://loungezilla.herokuapp.com',
     visit: 'https://github.com/Jacobharv00/loungezilla',
+    demo: 'https://loungezilla.herokuapp.com',
     id: 0,
   },
   {
     title: 'E-Boss',
     description: "Have you been looking for a e-commerce store that sells the hottest and sleekest products? E-Boss is a e-commerce store where you can find everything you need to get your developer office all set up.",
     image: '/images/e-boss.png',
-    tags: [ 'React', 'commerce.js', 'stripe.js', 'Material UI' ],
+    tags: [ 'React', 'Commerce.js', 'Stripe.js', 'Material UI' ],
     source: 'https://eboss.netlify.app',
     visit: 'https://github.com/Jacobharv00/e-commerce',
+    demo: 'https://eboss.netlify.app',
     id: 1,
   },
   {
@@ -24,6 +26,7 @@ export const projects = [
     tags: [ 'React', 'JSON', 'The-Movie-DB-API', 'Material UI' ],
     source: 'https://movie-lounge.netlify.app',
     visit: 'https://github.com/Jacobharv00/movie-lounge',
+    demo: 'https://www.loom.com/share/1d88bc16afe942bcb15302fdc1bfbcca?sharedAppSource=personal_library',
     id: 2,
   },
   {
@@ -33,6 +36,7 @@ export const projects = [
     tags: [ 'JavaScript', 'CSS', 'HTML', 'UUID' ],
     source: 'https://harvey-hangman.netlify.app',
     visit: 'https://github.com/Jacobharv00/hangman',
+    demo: 'https://www.loom.com/share/0d736077bf6040baa96684cdb936e0e1?sharedAppSource=personal_library',
     id: 3,
   },
 ]

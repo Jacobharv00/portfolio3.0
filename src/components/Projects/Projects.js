@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles'
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents'
 import { projects } from '../../constants/constants'
@@ -9,11 +8,11 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      { projects.map( ( { id, image, title, description, tags, source, visit } ) => (
+      { projects.map( ( { id, image, title, description, tags, source, visit, demo } ) => (
         <BlogCard key={ id }>
           <Img src={ image } alt='project' />
           <TitleContent>
-            <HeaderThree title>{ title }</HeaderThree>
+            <HeaderThree>{ title }</HeaderThree>
           </TitleContent>
           <CardInfo>{ description }</CardInfo>
           <div>
@@ -27,6 +26,7 @@ const Projects = () => (
           <UtilityList>
             <ExternalLinks href={ source } target='_blank'>Website</ExternalLinks>
             <ExternalLinks href={ visit } target='_blank'>Github</ExternalLinks>
+            <ExternalLinks href={ demo } target='_blank'>Demo</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ) ) }

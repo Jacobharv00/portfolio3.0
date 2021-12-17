@@ -70,7 +70,7 @@ const Timeline = () => {
         { TimeLineData.map( ( item, index ) => {
           return (
             <CarouselButton
-              key={ index }
+              key={ item }
               index={ index }
               active={ activeItem }
               onClick={ ( e ) => handleClick( e, index ) }
