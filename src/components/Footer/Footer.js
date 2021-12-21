@@ -20,7 +20,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>If you enjoyed my portfolio I would love to chat about any open opportunities available.
+          <Slogan>If you enjoyed my portfolio I would love to chat about any open opportunities available. Feel free to reach out either by phone, email or social media.
           </Slogan>
         </CompanyContainer>
         <SocialContainer>

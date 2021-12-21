@@ -7,6 +7,7 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
+  margin-left: 1vw;
 
   @media ${( props ) => props.theme.breakpoints.sm} {
     display: grid;
@@ -21,6 +22,7 @@ export const Span = styled.span`
   font-size: 3rem;
   color: #fdf5e6;
   transition: 0.4s ease;
+
     &:hover {
     color: #984B43;
   }
@@ -31,6 +33,7 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
+
   @media ${( props ) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
   }
@@ -40,6 +43,7 @@ export const Div2 = styled.div`
   display: flex;
   margin-left: 1vw;
   justify-content: space-around;
+
   @media ${( props ) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
@@ -49,6 +53,7 @@ export const Div3 = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+
   @media ${( props ) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
@@ -75,10 +80,11 @@ export const SocialIcons = styled.a`
   color: #fdf5e6;
   border-radius: 50px;
   padding: 8px;
-&:hover {
+
+  &:hover {
     color: #984B43;
     background-color: #EAC67A;
     transform: scale(1.2);
-    cursor: pointer;  
+    cursor: pointer;
   }
 `
