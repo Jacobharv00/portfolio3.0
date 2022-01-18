@@ -33,7 +33,7 @@ const Footer = () => {
           <SocialIcons href='https://jacobharv00.medium.com' target='_blank'>
             <AiFillMediumCircle size='3rem' />
           </SocialIcons>
-          <SocialIcons href='https://postimg.cc/zHWGk0NH' target='_blank'>
+          <SocialIcons href='https://postimg.cc/VrD3spTp' target='_blank'>
             <AiFillFile size='3rem' />
           </SocialIcons>
         </SocialContainer>

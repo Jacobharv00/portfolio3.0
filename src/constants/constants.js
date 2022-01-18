@@ -6,7 +6,7 @@ export const projects = [
     tags: [ 'React', 'Rails', 'PostgreSQL', 'The-Movie-DB-API', ],
     source: 'https://loungezilla.herokuapp.com',
     visit: 'https://github.com/Jacobharv00/loungezilla',
-    demo: 'https://loungezilla.herokuapp.com',
+    demo: 'https://www.loom.com/share/0d25d02abde4440db6cb4cb658a43364?sharedAppSource=personal_library',
     id: 0,
   },
   {
@@ -43,9 +43,9 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2020, text: 'Started learning how to program by taking a Udemy JavaScript Course everyday after work.', },
-  { year: 2021, text: 'Built my first todo application and hangman game. Deployed both live for anyone to use.', },
-  { year: 2021, text: 'Applied and was accepted into Flatiron School for Full Stack Software Engineering.', },
-  { year: 2021, text: 'Flatiron School: studied a lot, wrote code a lot, built projects in teams and solo, learned a ton, meet a lot of great people. ', },
-  { year: 2021, text: 'Graduated Flatiron School with 5 completed projects, two of which are Full Stack applications and an even larger love for coding and solving problems.', },
-  { year: 2021, text: 'After graduation I now am continuing to learn everyday by building new projects, studying up on JavaScript and Rails, practicing algorithms, learning about automated testing, and listing to podcasts.' },
+  { year: 2021, text: 'Built my first todo application and hangman game, and deployed them both live for anyone in the world to use.', },
+  { year: 2021, text: 'Accepted into Flatiron School for Full Stack Software Engineering program.', },
+  { year: 2021, text: 'Flatiron School: Learned a variety of programming languages and techniques for building full stack applications, and built projects with a new partner every three weeks.' },
+  { year: 2021, text: 'Graduated Flatiron School with 5 completed projects, two of which are Full Stack applications, and an even greater love for coding and solving problems.' },
+  { year: 2021, text: 'After graduation I now am continuing to learn everyday by building new projects, studying up on core JavaScript and Rails skills, practicing data structures & algorithms, learning automated testing & TDD, and in my free time I listen to podcasts on computer science topics.' },
 ]

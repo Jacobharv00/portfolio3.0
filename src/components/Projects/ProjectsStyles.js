@@ -5,6 +5,7 @@ export const Img = styled.img`
   height:auto;
   object-fit: cover;
   overflow: hidden;
+  border-radius: 5px;
 `
 
 export const GridContainer = styled.section`
@@ -47,7 +48,6 @@ export const HeaderThree = styled.h3`
   color: #126069;
   padding: .5rem 0;
   font-size: 3rem;
-  /* font-size: ${( props ) => props.title ? '3rem' : '2rem'}; */
 `
 
 export const Hr = styled.hr`
