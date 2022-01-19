@@ -39,7 +39,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
-            Git/Github, Styled-Components, Material UI, Heroku, Netlify, NPM, Commerce.js, Stripe.js, Figma, dbdiagram, email.js, Selenium WebDriver
+            Git/Github, Chrome DevTools, Styled-Components, Material UI, Tailwind, Heroku, Netlify, Hostinger, NPM, Commerce.js, Stripe.js, email.js, Figma, dbdiagram, Selenium WebDriver, React Testing Library, Jest
           </ListParagraph>
         </ListContainer>
       </ListItem>

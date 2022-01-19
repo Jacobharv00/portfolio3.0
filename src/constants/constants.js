@@ -20,6 +20,16 @@ export const projects = [
     id: 1,
   },
   {
+    title: 'Crypto Cookie',
+    description: "Looking to trade crypto? This is a Web 3.0 application that allows users to trade ethereum through the blockchain using metamask as an ethereum wallet. You can connect your metamask wallet and trade crypto with different accounts. Web 3.0 is the future!",
+    image: '/images/cryptocookie.png',
+    tags: [ 'React', 'Solidity', 'Ethers.js', 'Alchemy', 'Tailwind' ],
+    source: 'https://cryptocookie.netlify.app',
+    visit: 'https://github.com/Jacobharv00/crypto-cookie',
+    demo: 'https://cryptocookie.netlify.app',
+    id: 2,
+  },
+  {
     title: 'Movie Lounge',
     description: "Not sure what movie to watch? Visit movie-lounge and start searching for movies. Add to your watch list so you can know what movie to watch for movie night! And once you watched something give it a thumbs up or down to let others know how it was.",
     image: '/images/movie-lounge.png',
@@ -27,16 +37,6 @@ export const projects = [
     source: 'https://movie-lounge.netlify.app',
     visit: 'https://github.com/Jacobharv00/movie-lounge',
     demo: 'https://www.loom.com/share/1d88bc16afe942bcb15302fdc1bfbcca?sharedAppSource=personal_library',
-    id: 2,
-  },
-  {
-    title: 'Crypto Cookie',
-    description: "Looking to trade crypto? This is a Web 3.0 application that allows users to trade ethereum through the blockchain using metamask as a wallet. You can connect your metamask wallet and trade crypto with different accounts. Web 3.0 is the future!",
-    image: '/images/cryptocookie.png',
-    tags: [ 'React', 'Solidity', 'Ethers.js', 'Alchemy', 'Tailwind' ],
-    source: 'https://cryptocookie.netlify.app',
-    visit: 'https://github.com/Jacobharv00/crypto-cookie',
-    demo: 'https://cryptocookie.netlify.app',
     id: 3,
   },
 ]
