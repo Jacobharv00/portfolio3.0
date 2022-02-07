@@ -29,7 +29,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Ruby, Rails, SQLite3, PostgreSQL
+            Ruby, Rails, SQLite3, PostgreSQL, Solidity
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -39,7 +39,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
-            Git/Github, Chrome DevTools, Styled-Components, Material UI, Tailwind, Heroku, Netlify, Hostinger, NPM, Commerce.js, Stripe.js, email.js, Figma, dbdiagram, Selenium WebDriver, React Testing Library, Jest
+            Git/Github, Chrome DevTools, Styled-Components, Material UI, Tailwind, Heroku, Netlify, Hostinger, NPM, Commerce.js, Stripe.js, EmailJS, Figma, dbdiagram, Selenium WebDriver, React Testing Library, Jest, ethers.js, Alchemy, Hardhat
           </ListParagraph>
         </ListContainer>
       </ListItem>

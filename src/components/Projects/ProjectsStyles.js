@@ -15,13 +15,13 @@ padding: 3rem;
 place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
+top: 0;
 @media ${( props ) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
   padding: 2rem;
   padding-bottom: 0;
 }
-
 `
 export const BlogCard = styled.div`
   border-radius: 10px;
@@ -69,7 +69,6 @@ export const CardInfo = styled.p`
   margin-bottom: 20px;
   @media ${( props ) => props.theme.breakpoints.sm} {
     padding:.3rem
-  
 }
 `
 
@@ -94,13 +93,13 @@ transition: 0.5s;
 
 }
 `
-
 export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
 padding: 2rem;
 `
+
 export const Tag = styled.li`
 color: #fdf5e6;
-font-size: 1.5rem;
+font-size: 1.25rem;
 `

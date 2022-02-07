@@ -42,7 +42,7 @@ const Header = () => (
       <SocialIcons href='https://jacobharv00.medium.com' target='_blank'>
         <AiFillMediumCircle size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://postimg.cc/k2hd3fDf' target='_blank'>
+      <SocialIcons href='https://postimg.cc/7GCPSvnc' target='_blank'>
         <AiFillFile size='3rem' />
       </SocialIcons>
     </Div3>
