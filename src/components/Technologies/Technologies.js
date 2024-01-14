@@ -1,50 +1,68 @@
-import React from 'react'
-import { DiJsBadge, DiRubyRough } from 'react-icons/di'
-import { FaTools } from 'react-icons/fa'
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents'
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles'
+import React from "react";
+import { DiJsBadge, DiRubyRough } from "react-icons/di";
+import { FaTools } from "react-icons/fa";
+import {
+    Section,
+    SectionDivider,
+    SectionText,
+    SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+    List,
+    ListContainer,
+    ListItem,
+    ListParagraph,
+    ListTitle,
+} from "./TechnologiesStyles";
 
 const Technologies = () => (
-  <Section id='tech'>
-    <SectionDivider />
-    <br />
-    <SectionTitle>Tech</SectionTitle>
-    <SectionText>
-      I am experienced using multiple different Front-End languages, Back-End languages, frameworks, and different tools to help achieve a great end product.
-    </SectionText>
-    <List>
-      <ListItem>
-        <DiJsBadge size='4rem' style={ { color: '#126069' } } />
+    <Section id="tech">
+        <SectionDivider />
         <br />
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            JavaScript, React, CSS, HTML
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <DiRubyRough size='4rem' style={ { color: '#126069' } } />
-        <br />
-        <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Ruby, Rails, SQLite3, PostgreSQL, Solidity
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <FaTools size='3rem' style={ { color: '#126069' } } />
-        <br />
-        <ListContainer>
-          <ListTitle>Tools</ListTitle>
-          <ListParagraph>
-            Git/Github, Chrome DevTools, Styled-Components, Material UI, Tailwind, Heroku, Netlify, Hostinger, NPM, Commerce.js, Stripe.js, EmailJS, Figma, dbdiagram, Selenium WebDriver, React Testing Library, Jest, ethers.js, Alchemy, Hardhat
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-    </List>
-  </Section>
-)
+        <SectionTitle>Tech</SectionTitle>
+        <SectionText>
+            I possess extensive expertise building, optimizing and securing
+            robust front-end apps, scalable back-end systems and full-stack
+            solutions end-to-end leveraging diverse languages, frameworks and
+            tools.
+        </SectionText>
+        <List>
+            <ListItem>
+                <DiJsBadge size="4rem" style={{ color: "#126069" }} />
+                <br />
+                <ListContainer>
+                    <ListTitle>Front-End</ListTitle>
+                    <ListParagraph>
+                        TypeScript, React Native, JavaScript, React, Next JS,
+                        CSS, HTML
+                    </ListParagraph>
+                </ListContainer>
+            </ListItem>
+            <ListItem>
+                <DiRubyRough size="4rem" style={{ color: "#126069" }} />
+                <br />
+                <ListContainer>
+                    <ListTitle>Back-End</ListTitle>
+                    <ListParagraph>
+                        C#, DOTNET, SQL, Ruby, Rails, Solidity
+                    </ListParagraph>
+                </ListContainer>
+            </ListItem>
+            <ListItem>
+                <FaTools size="3rem" style={{ color: "#126069" }} />
+                <br />
+                <ListContainer>
+                    <ListTitle>Tools</ListTitle>
+                    <ListParagraph>
+                        Android Studio, Expo Hardhat, Entity Framework, MS SQL
+                        Azure, Bitrise, Git, Native Base, ethers.js, Alchemy,
+                        Bash Scripts, Swagger, React Native Debugger, XCode,
+                        Server, SQLite3, PostgreSQL, PostMan, Tamagui
+                    </ListParagraph>
+                </ListContainer>
+            </ListItem>
+        </List>
+    </Section>
+);
 
-export default Technologies
+export default Technologies;
