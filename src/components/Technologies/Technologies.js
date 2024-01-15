@@ -56,8 +56,9 @@ const Technologies = () => (
                     <ListParagraph>
                         Android Studio, Expo Hardhat, Entity Framework, MS SQL
                         Azure, Bitrise, Git, Native Base, ethers.js, Alchemy,
-                        Bash Scripts, Swagger, React Native Debugger, XCode,
-                        Server, SQLite3, PostgreSQL, PostMan, Tamagui
+                        Bash Scripts, Styled Components, Swagger, React Native
+                        Debugger, XCode, Server, SQLite3, PostgreSQL, PostMan,
+                        Tamagui
                     </ListParagraph>
                 </ListContainer>
             </ListItem>

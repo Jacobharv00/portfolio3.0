@@ -66,20 +66,17 @@ const Timeline = () => {
             <SectionDivider />
             <SectionTitle style={{ marginTop: "20px" }}>About Me</SectionTitle>
             <SectionText>
-                I bring over 2+ years of experience developing innovative web
-                and mobile applications for Mahalo Banking leveraging TypeScript
-                and React Native. I've specialized in understanding complex
-                requirements for neurodiverse users and translating them into
-                intuitive digital experiences. Crafting creative but accessible
-                UI/UX is my passion. I particularly enjoy collaborating with
-                stakeholders and development teams on ambitious green field
-                projects to conceive solutions from the ground up. In my
-                day-to-day work, I aim to balance simplicity with depth in both
-                design and technical implementation. My goal is for the user
-                journey to be frictionless while I solve complex problems behind
-                the scenes through clean, modular code. I believe my specialized
-                experience and passion for accessibility can add value to
-                customer-focused development teams pushing the boundaries.
+                2+ years of experience developing innovative web & mobile
+                applications for Mahalo Banking leveraging TypeScript and React
+                Native. I've specialized in understanding complex requirements
+                for neurodiverse users and translating them into intuitive
+                digital experiences. In my day-to-day work, I aim to balance
+                simplicity with depth in both design and technical
+                implementation. My goal is for the user journey to be
+                frictionless while I solve complex problems behind the scenes
+                through clean, modular code. I believe my specialized experience
+                and passion for accessibility can add value to customer-focused
+                development teams pushing the boundaries.
             </SectionText>
             <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
                 <>

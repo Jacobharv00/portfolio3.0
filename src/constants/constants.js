@@ -2,7 +2,7 @@ export const projects = [
     {
         title: "Crypto Cookie",
         description:
-            "Looking to trade crypto? This is a Web 3.0 application that allows users to trade ethereum through the blockchain using metamask as an ethereum wallet. You can connect your metamask wallet and trade crypto with different accounts. Web 3.0 is the future!",
+            "This is a Web 3 app that allows users to trade ethereum through the blockchain using metamask as an ethereum wallet. You can connect your metamask wallet and trade crypto with different accounts. Web 3.0 is the future!",
         image: "/images/cryptocookie.png",
         tags: ["React", "Solidity", "Ethers.js", "Alchemy", "Tailwind"],
         source: "https://cryptocookie.netlify.app",
@@ -13,7 +13,7 @@ export const projects = [
     {
         title: "E-Boss",
         description:
-            "Have you been looking for a e-commerce store that sells the hottest and sleekest products? E-Boss is a e-commerce store where you can find everything you need to get your developer office all set up.",
+            "Ecommerce store that sells the hottest and sleekest products. E-Boss is a e-commerce store where you can find everything you need to get your developer office all set up. Payments are always secured.",
         image: "/images/e-boss.png",
         tags: ["React", "Commerce.js", "Stripe.js", "Material UI"],
         source: "https://eboss.netlify.app",
@@ -49,7 +49,7 @@ export const TimeLineData = [
         text: "After graduation I now am continuing to learn everyday by building new projects, studying up on core JavaScript and Rails skills, practicing data structures & algorithms, learning automated testing & TDD, and in my free time I listen to podcasts on computer science topics.",
     },
     {
-        year: 2021 - "Present",
+        year: `2021 - Present`,
         text: "Software Developer at Mahalo Banking, I spearhead mobile & web app development to allow for cross-platform banking solutions.",
     },
 ];

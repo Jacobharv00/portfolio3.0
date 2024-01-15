@@ -33,9 +33,9 @@ const Footer = () => {
             <SocialIconsContainer>
                 <CompanyContainer>
                     <Slogan>
-                        If you enjoyed my portfolio I would love to chat about
-                        any open opportunities available. Feel free to reach out
-                        either by phone, email or social media.
+                        If you are looking for an experienced software developer
+                        reach out by phone, email or social media to see how we
+                        can build amazing things together.
                     </Slogan>
                 </CompanyContainer>
                 <SocialContainer>
