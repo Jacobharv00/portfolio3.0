@@ -33,8 +33,8 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Front-End</ListTitle>
                     <ListParagraph>
-                        TypeScript, React Native, JavaScript, React, Next JS,
-                        CSS, HTML
+                        CSS, HTML JavaScript, Next JS, React Native, React,
+                        TypeScript,
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -44,7 +44,8 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Back-End</ListTitle>
                     <ListParagraph>
-                        C#, DOTNET, SQL, Ruby, Rails, Solidity
+                        C#, DOTNET Web API, Entity Framework, Microsoft SQL
+                        Server, Ruby On Rails, Ruby, Solidity SQL,
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -54,11 +55,11 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Tools</ListTitle>
                     <ListParagraph>
-                        Android Studio, Expo Hardhat, Entity Framework, MS SQL
-                        Azure, Bitrise, Git, Native Base, ethers.js, Alchemy,
-                        Bash Scripts, Styled Components, Swagger, React Native
-                        Debugger, XCode, Server, SQLite3, PostgreSQL, PostMan,
-                        Tamagui
+                        Alchemy API, Android Studio, AutoMapper, Azure, Bash
+                        Scripts, Bitrise, ethers.js, Expo, Figma, Git, Hardhat,
+                        Native Base, PostgreSQL, PostMan, React Native Debugger,
+                        React Native MMKV, Redux, Redux Took Kit, SQLite3,
+                        Styled Components, Swagger, Tamagui, XCode,
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
